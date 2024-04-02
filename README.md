@@ -38,9 +38,9 @@ Simple UI for StakeNS process can be found from here https://arweave.net/dTBZWia
 # Process actions:
   
 #### StakeNS
-  
-`StakeNS = "98x5osvP4pTIDNfqbMl7UphYzSR9ai2WPxeQ7YXeXA4"`
-
+```
+StakeNS = "98x5osvP4pTIDNfqbMl7UphYzSR9ai2WPxeQ7YXeXA4"
+```
 #### Sending AOCRED-Test tokens to use for staking
     
 ```
