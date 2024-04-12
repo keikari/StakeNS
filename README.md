@@ -13,7 +13,9 @@ Simple UI for StakeNS process can be found from here https://arweave.net/dTBZWia
 #### Short steps to help you get started:
 1. Send some CREDs to your wallet connected to the page
 2. Send some of the CREDs to the process using the option on the page
-3. Create a record for a name you want, and test out the results at https://jees.site/ (Naming works similar to ArNS, like `https://name.jees.site/`)
+3. Create a record for a name you want, and test out the results at https://jees.site/ (Naming works similar to ArNS, like `https://name.jees.site/`)  
+*Note:*  
+https://jees.site/ should also have required header set for it to work with a gateway node, and can be used by changing the `TRUSTED_ARNS_GATEWAY_URL="https://__NAME__.arweave.dev"` to `TRUSTED_ARNS_GATEWAY_URL="https://__NAME__.jees.site"` in .env file. (I think)
 
 
 # Brief overview of the usage:
