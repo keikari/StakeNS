@@ -1,7 +1,7 @@
 # StakeNS
 
 StakeNS is a voting based naming system for Arweave, and is powered by AO.  
-To get started send (AOCRED-Test)tokens to StakeNS process's pid, and use them to vote for who should control each name, by staking them.    
+To get started send (AOCRED-Test)tokens to StakeNS process's pid, and use them to vote for who should control each name by staking credits on them.    
 Stakes are reclaimable so you can always change your mind, and also withdraw the tokens back from the process.  
 
 The idea is stolen from how community URLs in LBRY protocol work, for details see: https://lbry.com/faq/naming and https://tech.lbry.nu/spec#appendix  
