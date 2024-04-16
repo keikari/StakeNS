@@ -24,7 +24,7 @@ https://jees.site/ should also have required header set for it to work with a ga
 
 #### Taking over the control of a record
 1. Find out that the name you want is already taken by someone else.  
-2. Stake more tokens to it than they have using the `CreateStake` action
+2. Stake more tokens to it than they have by using the `CreateStake` action
    - Each stake has an activation delay. Activation delay is based on the time the current holder has held the control over the record. For each block passed, the new stakes will have an additional block of an activation delay, capping at 5040 blocks(~7 days).
    - You can also stake tokens on someone else's behalf, to help them to takeover the control.
 1. Wait for your stake to activate and call `ResolveNewRecordHolder` to trigger a takeover.
