@@ -93,3 +93,17 @@ Send({ Target = StakeNS, Action = "Withdraw", Quantity = "10" })
 ```
 Send({ Target = StakeNS, Action = "RetrieveState"})
 ```
+
+# Undernames
+Name records on StakeNS can have undernames, similar to how ArNS has undernames. Undernames are to be stored in a json file uploaded to Arweave, and its txid can be linked to the name record.  
+  
+Format for the undernames json:  
+```
+{
+   "version": "0.1.1",
+   "undernames": [
+      { "name": "undername", "txid": "content-txid" },
+      ...
+   ]
+}
+```
